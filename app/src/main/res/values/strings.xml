@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">AcerStore App</string>
+    <string name="acer_name">Nama Acer</string>
+    <string name="acer_description">Deskripsi</string>
+    <string-array name="data_name">
+        <item>Acer Nitro 17 AMD</item>
+        <item>Acer Spin 3 Active</item>
+        <item>Predator Triton 17 X</item>
+        <item>Swift 3 Oled</item>
+        <item>Swift Edge 16</item>
+        <item>Swift Go 14 AMD</item>
+        <item>Swift x AMD</item>
+        <item>Swift x Intel</item>
+        <item>Travelmate P6 14</item>
+    </string-array>
+    <string-array name="data_descrption">
+        <item>Perpaduan paripurna antara kecepatan dan ketahanan dalam laptop gaming berbekal prosesor AMD Ryzen™ terkini, GPU laptop NVIDIA® GeForce RTX™ 40 Series, dan SSD PCIe M.2 dengan RAM DDR5 hingga 32 GB.</item>
+        <item>Spin 3 yang konvertibel dan tipis ini adalah laptop layar sentuh 2-in-1 yang dirancang agar praktis digunakan kapan saja dan di mana saja. Layar 14 inci dan stylusnya1 yang responsif akan membuat Anda enggan melepas laptop ini begitu Anda memegang penanya.</item>
+        <item>Di dalamnya terdapat salah satu perangkat keras paling andal yang tersedia untuk laptop saat ini. Prosesor Intel® Core™ i9 Generasi ke-131 dengan arsitektur hibrid performa baru menetapkan standar baru dengan hingga 24 core pada frekuensi turbo maks. 5,40 GHz1.</item>
+        <item>Sambut perangkat baru nan portabel ini. Menghadirkan performa kelas berat dalam bodi ringan 14 inci, prosesor Intel® Core™ Generasi ke-121, dan layar OLED yang brilian1, kini Anda dapat berkarya kapan pun, di mana pun.</item>
+        <item>Memadukan performa dan portabilitas yang unggul, Swift Edge 16 terbaru memiliki desain yang tipis dan ringan, dengan perangkat keras yang menunjang kebutuhan AI masa kini.</item>
+        <item>Swift 3 kini berevolusi. Sambut kehadiran Swift Go yang baru—desain mutakhir berbekal CPU AMD Ryzen™ 7000 terkini1 dan layar OLED 2,8K1 yang mengagumkan. Semuanya dalam perangkat tipis dan ringan yang tampil menarik. Siap diajak beraktivitas!</item>
+        <item>Perkuat inspirasi Anda dengan prosesor AMD terbaru. Percepat waktu pengeditan Anda dengan GPU NVIDIA. Dilengkapi RAM hingga 16 GB dan slot SSD ganda hingga 2 TB.</item>
+        <item>Rasakan serunya performa ekstrem dengan prosesor Intel® Core™ i7 Generasi ke-12 dengan 12 core untuk menunjang multitasking dan produktivitas. Berkat NVIDIA RTX dan Intel® Arc™ GPU1, Anda dapat bekerja lebih keras dan bermain lebih seru. Juga dilengkapi Memori LPDDR5 16 GB2 dan SSD PCIe NVMe 2 TB2.</item>
+        <item>Didukung Intel vPro® dan Intel® Evo™ Design1, laptop bisnis high-end ini dilengkapi dengan fitur prosesor Intel® Core™ i7 Generasi ke-131, memori LPDDR5 32 GB1, dan baterai isi daya cepat 65 W yang tahan lama11.</item>
+    </string-array>
+    <string-array name="data_photo">
+        <item>@drawable/acer_nitro_17_amd</item>
+        <item>@drawable/acer_spin_3_active</item>
+        <item>@drawable/predator_triton_17_x</item>
+        <item>@drawable/swift_3_oled</item>
+        <item>@drawable/swift_edge_16</item>
+        <item>@drawable/swift_go_14_amd</item>
+        <item>@drawable/swift_x_amd</item>
+        <item>@drawable/swift_x_intel</item>
+        <item>@drawable/travelmate_p6_14</item>
+    </string-array>
+</resources>
