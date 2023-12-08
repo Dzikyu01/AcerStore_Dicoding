@@ -1,6 +1,7 @@
 package com.dzikyu01.acerstoreapp
 
 import android.content.Intent
+import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -8,6 +9,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
 import androidx.core.content.ContextCompat
+import androidx.core.content.ContextCompat.startActivity
 import androidx.recyclerview.widget.RecyclerView
 
 class ListAcerAdapter (private val listAcer: ArrayList<Acer>) : RecyclerView.Adapter<ListAcerAdapter.ListViewHolder>() {
@@ -29,12 +31,14 @@ class ListAcerAdapter (private val listAcer: ArrayList<Acer>) : RecyclerView.Ada
         holder.tvName.text = acer.name
         holder.tvDescription.text = acer.description
         holder.itemView.setOnClickListener {
-            val intent = Intent (this, DetailAcerActivity::class.java)
-            ContextCompat.startActivity(intent)
+            val intent = Intent(holder.itemView.context, DetailAcerActivity::class.java).apply {
+                putExtra("nama", acer.name)
+                putExtra("description", acer.description)
+                putExtra("photo", acer.photo)
+            }
+
+            startActivity(holder.itemView.context, intent, null)
         }
-
     }
-
     override fun getItemCount(): Int = listAcer.size
-
 }
