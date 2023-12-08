@@ -2,6 +2,9 @@
     <string name="app_name">AcerStore App</string>
     <string name="acer_name">Nama Acer</string>
     <string name="acer_description">Deskripsi</string>
+    <string name="name">Name</string>
+    <string name="description">Description</string>
+    <string name="button">Button</string>
     <string-array name="data_name">
         <item>Acer Extansa 15</item>
         <item>Acer Nitro 17 AMD</item>
