@@ -35,6 +35,7 @@ class ListAcerAdapter (private val listAcer: ArrayList<Acer>) : RecyclerView.Ada
                 putExtra("nama", acer.name)
                 putExtra("description", acer.description)
                 putExtra("photo", acer.photo)
+                putExtra("url", acer.url)
             }
 
             startActivity(holder.itemView.context, intent, null)

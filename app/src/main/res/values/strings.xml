@@ -17,7 +17,7 @@
         <item>Swift x Intel</item>
         <item>Travelmate P6 14</item>
     </string-array>
-    <string-array name="data_descrption">
+    <string-array name="data_description">
         <item>Selesaikan pekerjaan dengan cepat dan efisien berkat dukungan prosesor Intel® Core™ Generasi ke-101 yang canggih, kartu grafis Intel® UHD1, dan memori DDR4 hingga 12 GB untuk kemudahan multitasking.</item>
         <item>Perpaduan paripurna antara kecepatan dan ketahanan dalam laptop gaming berbekal prosesor AMD Ryzen™ terkini, GPU laptop NVIDIA® GeForce RTX™ 40 Series, dan SSD PCIe M.2 dengan RAM DDR5 hingga 32 GB.</item>
         <item>Spin 3 yang konvertibel dan tipis ini adalah laptop layar sentuh 2-in-1 yang dirancang agar praktis digunakan kapan saja dan di mana saja. Layar 14 inci dan stylusnya1 yang responsif akan membuat Anda enggan melepas laptop ini begitu Anda memegang penanya.</item>
@@ -40,5 +40,17 @@
         <item>@drawable/swift_x_amd</item>
         <item>@drawable/swift_x_intel</item>
         <item>@drawable/travelmate_p6_14</item>
+    </string-array>
+    <string-array name="data_url">
+        <item>https://www.acer.com/id-id/laptops/extensa</item>
+        <item>https://www.acer.com/id-id/laptops/nitro/nitro-17-amd</item>
+        <item>https://www.acer.com/id-id/laptops/spin/spin-3-intel</item>
+        <item>https://www.acer.com/id-id/predator/laptops/triton/triton-17-x/</item>
+        <item>https://www.acer.com/id-id/laptops/swift/swift-3-oled</item>
+        <item>https://www.acer.com/id-id/laptops/swift/swift-edge</item>
+        <item>https://www.acer.com/id-id/laptops/swift/swift-go-14-amd</item>
+        <item>https://www.acer.com/id-id/laptops/swift/swift-x-amd</item>
+        <item>https://www.acer.com/id-id/laptops/swift/swift-x-intel</item>
+        <item>https://www.acer.com/id-id/laptops/travelmate/travelmate-p6-14</item>
     </string-array>
 </resources>
