@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="My Profile"
+        app:showAsAction="never"
+        android:id="@+id/action_myprofile"/>
+
+    <item
+        android:title="Grid"
+        app:showAsAction="never"
+        android:id="@+id/action_grid"/>
+
+    <item
+        android:title="List"
+        app:showAsAction="never"
+        android:id="@+id/action_list"/>
+
+</menu>

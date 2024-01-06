@@ -19,7 +19,6 @@ class ListAcerAdapter (private val listAcer: ArrayList<Acer>) : RecyclerView.Ada
         val tvDescription: TextView = itemView.findViewById(R.id.tv_item_description)
     }
 
-
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ListViewHolder {
         val view: View = LayoutInflater.from(parent.context).inflate(R.layout.item_row_acer, parent, false)
         return ListViewHolder(view)

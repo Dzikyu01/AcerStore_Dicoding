@@ -4,7 +4,10 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.view.Menu
+import android.view.MenuItem
 import android.widget.ImageView
+import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 
@@ -22,6 +25,28 @@ class MainActivity : AppCompatActivity() {
         list.addAll(getlistAcer())
         showRecyclerList()
     }
+
+    override fun onCreateOptionsMenu(Menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.menu_main, Menu)
+        return true
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        when (item.itemId) {
+            R.id.action_list -> {
+                rvAcer.layoutManager = LinearLayoutManager(this)
+            }
+            R.id.action_grid -> {
+                rvAcer.layoutManager = GridLayoutManager(this, 2)
+            }
+            R.id.action_myprofile -> {
+                val intent = Intent(this, ProfileActivity::class.java)
+                startActivity(intent)
+            }
+        }
+        return super.onOptionsItemSelected(item)
+    }
+
 
     private fun showRecyclerList() {
         rvAcer.layoutManager = LinearLayoutManager(this)

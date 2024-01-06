@@ -5,6 +5,7 @@
     <string name="name">Name</string>
     <string name="description">Description</string>
     <string name="button">Button</string>
+    <string name="ManyText">Hi, my name Dzikral Isa Fadli so i am 14 years old, i am from IDN Boarding School Solo and i am 9 grade.</string>
     <string-array name="data_name">
         <item>Acer Extansa 15</item>
         <item>Acer Nitro 17 AMD</item>
